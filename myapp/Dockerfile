@@ -20,3 +20,5 @@ EXPOSE 3000
 #run npm start
 CMD ["npm", "start"]
 
+# docker build -t thesis-myapp:latest . ( or ./myapp)
+# docker compose up
