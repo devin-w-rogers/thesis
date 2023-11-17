@@ -1,4 +1,5 @@
 import myLogo from "./myLogo.png"
+
 export function NavBar() {
     return(
         <nav>
