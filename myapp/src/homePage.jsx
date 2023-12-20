@@ -1,4 +1,3 @@
-import headshot from "./headshot.jpg"
 import hexaheadshot from "./hexa-headshot.png"
 
 
@@ -10,10 +9,12 @@ export function HomePage() {
             </div>
             <div class="container">
                 <div class="homepageText">
-                    <h1>Devin Wolf Rogers</h1>
-                    <p style={{ fontSize: '5vh' }}>Hello there!</p>
-                    <p>I'm currently a senior Computer Science student at Carthage College and will be
-                        graduating in May of 2024. I am looking forward to you browsing my website!
+                    <p style={{ fontSize: '5vh', marginBottom: '.3rem'}}>Hi! I'm</p>
+                    <h1>Devin Wolf Rogers.</h1>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse mollitia,
+                    vitae aliquam nihil saepe quibusdam ex velit, quaerat doloribus laboriosam 
+                    fugiat id deserunt ratione perferendis possimus excepturi sit explicabo voluptatum!
                     </p>
                 </div>
             </div>

@@ -1,12 +1,14 @@
 import './App.css';
 import { NavBar } from "./navBar"
 import { HomePage } from "./homePage"
+import { AboutMe } from "./aboutMe"
 
 export default function App() {
   return (
     <>
     <NavBar />
     <HomePage />
+    <AboutMe />
     </>
   )
 }

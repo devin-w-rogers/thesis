@@ -7,7 +7,7 @@ export function NavBar() {
             <i class='bx bx-menu-alt-right' id='menu-icon'></i>
             <a href="contact">Contact</a>
             <a href="work">Work</a>
-            <a href="about">About Me</a>
+            <a href="#aboutMe">About Me</a>
             <a href="home">Home</a>
         </nav>
     );
