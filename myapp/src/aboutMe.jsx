@@ -7,7 +7,9 @@ export function AboutMe() {
             graduating in May of 2024. Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
             Architecto maxime culpa quas debitis et ullam quis in tenetur, id provident excepturi
             dolorem minima vitae beatae nihil numquam sunt laborum necessitatibus! </p>
-            <img src={hexaheadshot} class="hexhs" alt="headshot" /> 
+            <div style={{paddingTop: '40px'}}>
+                <img src={hexaheadshot} class="hexhs" id="aboutHexHS" alt="headshot" /> 
+            </div>
         </body>
     );
 }

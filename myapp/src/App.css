@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
 
 * {
   margin: 0;
@@ -7,6 +8,7 @@
   font-family: Raleway, Verdana, Tahoma, sans-serif;
 }
 
+/* Nav Bar Styles --------------------------------------------------------- */
 nav {
   background-color: white; /* pale orange: #f5e9e0 */
   overflow: hidden;
@@ -49,18 +51,11 @@ nav img {
   display: none;
 }
 
-/*@media (max-width: 600px) {
-  nav a, nav img {
-      display: block;
-      text-align: left;
-      box-sizing: border-box;
-  }
-}*/
-
 @media (max-width: 655px) { /* Write the mobile nav bar here. */
 
 }
 
+/* Home Page Styles --------------------------------------------------------- */
 main {
   background-color: #8b8b8b;
   background: radial-gradient(#1a1a1a, #0a0a0a); /* 10%, 50% */
@@ -73,7 +68,7 @@ main {
 }
 
 .hexhs {
-  height: 34vw;
+  height: 38vw; /* 34vw */
 }
 
 h1 {
@@ -92,19 +87,6 @@ p {
   text-align:center;
 }
 
-#aboutMe {
-  background-color: #262626;
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 82vh;
-}
-
-#aboutText {
-  line-height: 2;
-  margin-right: 3vw;
-}
 .social {
   display: flex;
 }
@@ -131,3 +113,17 @@ p {
   height: 4.35rem;
 }
 
+/* About Me Styles --------------------------------------------------------- */
+#aboutMe {
+  background-color: #262626;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 84vh;
+}
+
+#aboutText {
+  line-height: 2;
+  margin-right: 3vw;
+}

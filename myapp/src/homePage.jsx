@@ -5,10 +5,10 @@ export function HomePage() {
     return(
         <main>
             <div class="container">
-                <img src={hexaheadshot} class="hexhs" alt="headshot" /> 
+                <img src={hexaheadshot} class="hexhs animate__animated animate__fadeInLeft" alt="headshot" /> 
             </div>
-            <div class="container">
-                <p style={{ fontSize: '5vh', marginBottom: '.3rem'}}>Hi! I'm</p>
+            <div class="container animate__animated animate__fadeInUp">
+                <p style={{ fontSize: '5vh', marginBottom: '.3rem'}}>Hello! I'm</p>
                 <h1>Devin Wolf Rogers.</h1>
                 <p style={{ marginLeft: '1rem', marginRight: '1rem'}}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse mollitia,
