@@ -12,13 +12,12 @@ services:
     image: thesis-myapp:latest
     container_name: myapp_c
     ports: 
-      - '3000:3000'
+      - '80:3000'
     #volumes:
       #- ./myapp:/app
       #- ./app/node_modules
-    stdin_open: true    # Adding both of these properties starts 
-    tty: true           # container in interactive mode, not detached mode.
-
+    #stdin_open: true    # Adding both of these properties starts 
+    #tty: true           # container in interactive mode, not detached mode.
 
 
     # stuff to fill repo with:
