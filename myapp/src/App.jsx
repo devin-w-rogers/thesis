@@ -2,6 +2,7 @@ import './App.css';
 import { NavBar } from "./navBar"
 import { HomePage } from "./homePage"
 import { AboutMe } from "./aboutMe"
+import { Work } from "./work"
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
     <NavBar />
     <HomePage />
     <AboutMe />
+    <Work />
     </>
   )
 }
