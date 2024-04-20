@@ -98,19 +98,26 @@ p {
   width: 4rem;
   height: 4rem;
   background: transparent;
-  border: .2rem solid #ac4828; /* #ac4828, #ac6034 */
+  border: .2rem solid #505050; /* #ac4828, #ac6034 */
   border-radius: 50%;
   font-size: 2rem;
-  color: #ac4828;
+  color: #b8b8b8;
   margin-right: auto;
   margin-left: auto;
   text-decoration-line: none;
   transition: .25s;
 }
 
+.social a:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #ffffff;
+}
+
 .social a:hover {
-  width: 4.35rem;
-  height: 4.35rem;
+  color: #ffffff;
+  box-shadow: 0 0 5px #ff4000;
+  text-shadow: 0 0 5px #ffffff;
+  border: .2rem solid #ff4000;
 }
 
 /* About Me Styles --------------------------------------------------------- */
@@ -160,6 +167,11 @@ p {
 
 .work-box img{ 
   width: 100%;
+  transition: .5s ease;
+}
+
+.work-box:hover img{ 
+  scale: 1.1;
 }
 
 .work-box .work-layer{ 
@@ -185,11 +197,16 @@ p {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 3rem;
-  height: 3rem;
+  width: 4rem;
+  height: 4rem;
   background: white;
   border-radius: 50%;
   text-decoration: none;
+  transition: .5s;
+}
+
+.work-layer a:hover {
+  scale: 1.1;
 }
 
 .work-layer a i {
@@ -202,3 +219,4 @@ p {
   margin: 1rem 2rem;
   line-height: 1.5;
 }
+

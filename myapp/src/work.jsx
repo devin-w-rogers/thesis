@@ -13,7 +13,7 @@ export function Work() {
                     <img src={work1}></img>
                     <div class="work-layer">
                         <h4>Poker Evaluator</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate commodi, et incidunt hic animi expedita!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate commodi, et incidunt hic animi!</p>
                         <a href="#"><i class="bx bx-link-external"></i></a>
                     </div>
                 </div>
