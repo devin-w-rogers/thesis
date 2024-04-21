@@ -27,10 +27,11 @@ nav a {
   align-items: center;
   text-align: center;
   margin-right: 4rem;
-  margin-top: 1.4rem; /* 1rem */
+  margin-top: 4.5vh; /* 1rem */
+  margin-bottom: 4.5vh;
   text-decoration: none;
   /*line-height: 2rem;*/
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   color: black;
   transition: .35s;
 }
@@ -59,16 +60,16 @@ nav img {
 main {
   background-color: #8b8b8b;
   background: radial-gradient(#1a1a1a, #0a0a0a); /* 10%, 50% */
-  padding: 30px;
-  margin-top: 40px;
+  padding: 0px 30px;
+  /*margin-top: 40px;*/
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 82vh;
+  min-height: 100vh;
 }
 
 .hexhs {
-  height: 38vw; /* 34vw */
+  width: 38vw; /* 34vw */
 }
 
 h1 {
@@ -76,15 +77,15 @@ h1 {
   font-size: 10vh;
   margin-top: 0;
   margin-bottom: 0;
-  text-align:center;
+  text-align: center;
 }
 
 p {
-  color:white;
-  margin-top:.5em;
+  color: white;
+  margin-top: .5em;
   margin-bottom: 1em;
   font-size: 3.5vh;
-  text-align:center;
+  text-align: center;
 }
 
 .social {
@@ -123,11 +124,11 @@ p {
 /* About Me Styles --------------------------------------------------------- */
 #aboutMe {
   background-color: #262626; /* #262626 */
-  padding: 30px;
+  padding: 0px 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 84vh;
+  min-height: 89vh;
 }
 
 #aboutText {
@@ -138,7 +139,7 @@ p {
 /* Portfolio Styles -------------------------------------------------------- */
 .work {
   background: radial-gradient(#1a1a1a, #0a0a0a);
-  min-height: 88vh;
+  min-height: 89vh;
 }
 
 .work h2 {
