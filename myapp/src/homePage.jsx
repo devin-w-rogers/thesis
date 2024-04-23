@@ -3,7 +3,7 @@ import hexaheadshot from "./hexa-headshot.png"
 
 export function HomePage() {
     return(
-        <main>
+        <main id="home">
             <div class="hexhsContainer">
                 <img src={hexaheadshot} class="hexhs animate__animated animate__fadeInLeft" alt="headshot" /> 
             </div>

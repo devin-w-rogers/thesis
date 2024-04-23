@@ -5,7 +5,7 @@ import work3 from "./work3.jpg"
 
 export function Work() {
     return(
-        <section class="work">
+        <section class="work" id="work">
             <h2 class="heading">Some <span>Projects</span> </h2>
 
             <div class="work-container">

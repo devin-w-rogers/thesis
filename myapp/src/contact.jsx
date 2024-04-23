@@ -1,4 +1,3 @@
-import hexaheadshot from "./hexa-headshot.png"
 
 
 export function Contact() {

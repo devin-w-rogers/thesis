@@ -133,6 +133,7 @@ p {
   justify-content: center;
   align-items: center;
   min-height: 89vh;
+  scroll-behavior: smooth
 }
 
 #aboutText {
