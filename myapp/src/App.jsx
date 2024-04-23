@@ -3,6 +3,8 @@ import { NavBar } from "./navBar"
 import { HomePage } from "./homePage"
 import { AboutMe } from "./aboutMe"
 import { Work } from "./work"
+import { Contact } from "./contact"
+
 
 export default function App() {
   return (
@@ -11,6 +13,7 @@ export default function App() {
     <HomePage />
     <AboutMe />
     <Work />
+    <Contact />
     </>
   )
 }
