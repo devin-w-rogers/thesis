@@ -15,9 +15,14 @@ export function Contact() {
                     <input type="email" placeholder="Email Subject"></input>
                 </div>
                 <textarea name="" id="" cols="30" rows="8" placeholder=" Your Message"></textarea>
-                <input type="submit" value="Send Message" class="submitBtn"></input>
+                <div class="upBtn">
+                    <input type="submit" value="Send Message" class="submitBtn"></input>
+                    <a href="#home" class="upBtn"><i class='bx bx-upvote'></i></a>
+                </div>
             </form>
-
+            {/* <div class="upBtn">
+                <a href="#home"><i class='bx bx-upvote' ></i></a>
+            </div> */}
         </section>
     );
 }

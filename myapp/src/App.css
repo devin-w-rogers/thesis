@@ -29,8 +29,8 @@ nav a {
   align-items: center;
   text-align: center;
   margin-right: 4rem;
-  margin-top: 4.5vh; /* 1rem */
-  margin-bottom: 4.5vh;
+  margin-top: 3.5vh; /* 1rem */
+  margin-bottom: 3.5vh;
   text-decoration: none;
   /*line-height: 2rem;*/
   font-size: 1.15rem;
@@ -44,9 +44,9 @@ nav a:hover {
 
 nav img {
   float: left;
-  height: 8.7vh; /* 3rem */ 
-  padding: 10px;
-  padding-left: 20px;
+  height: 8.5vh; /* 3rem */ 
+  padding: 1.25vh;
+  padding-left: 3vh;
 }
 
 #menu-icon {
@@ -121,8 +121,8 @@ p {
 
 .social a:hover {
   color: #ffffff;
-  box-shadow: 0 0 5px #ff4000;
-  text-shadow: 0 0 5px #ffffff;
+  box-shadow: 0 0 10px #ff4000;
+  text-shadow: 0 0 10px #ffffff;
   border: .2rem solid #ff4000;
 }
 
@@ -257,8 +257,8 @@ p {
 .contact form .input-box input,
 .contact form textarea {
   width: 100%;
-  padding: 1vh;
-  font-size: 2vh;
+  padding: 2.2vh;
+  font-size: 2.3vh;
   color: white;
   background: #505050;
   border-radius: .8rem;
@@ -268,17 +268,17 @@ p {
 
 .inputBox input{
   width: 25vw;
-  padding: 2vh;
-  font-size: 2vh;
+  padding: 2.2vh;
+  font-size: 2.3vh;
   color: white;
   background: #505050;
   border-radius: .8rem;
   margin: 1vh .5vh;
 }
 
-.submitBtn {
+.submitBtn { /* CHANGE THIS TO HAVE SAME STYLE AS SOCIAL/BACK TO TOP BUTTONS*/
   display: inline-block;
-  margin: 3vh;
+  margin: 3vh;  
   padding: .8rem 2.3rem;
   background: #ff4000;
   border-radius: 4rem;
@@ -291,4 +291,35 @@ p {
 
 .submitBtn:hover {
   box-shadow: none;
+}
+
+.upBtn a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  background: transparent;
+  border: .2rem solid #505050; /* #ac4828, #ac6034 */
+  border-radius: 50%;
+  font-size: 2rem;
+  color: #b8b8b8;
+  margin-right: 15vw;
+  margin-top: 4vh;
+  text-decoration-line: none;
+  transition: .25s;
+  position: absolute;
+  right: 0;
+}
+
+.upBtn a:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #ffffff;
+}
+
+.upBtn a:hover {
+  color: #ffffff;
+  box-shadow: 0 0 10px #ff4000;
+  text-shadow: 0 0 10px #ffffff;
+  border: .2rem solid #ff4000;
 }
