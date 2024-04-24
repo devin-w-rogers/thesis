@@ -1,7 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myapp
+  name: myapp-deployment
+  labels:
+    app: myapp
 spec:
   selector:
     matchLabels:
@@ -12,8 +14,8 @@ spec:
         app: myapp
     spec:
       containers:
-      - name: myapp
-        image: thesis-myapp:latest
+      - name: myapp-server
+        image: devinwrogers/thesis-myapp:latest
         resources:
           limits:
             memory: "512Mi"

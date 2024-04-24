@@ -22,3 +22,5 @@ CMD ["npm", "start"]
 
 # docker build -t thesis-myapp:latest . ( or ./myapp)
 # docker compose up
+
+# ANOTHER OPTION (instead of compose): docker run -d -p 3000:3000 thesis-myapp
