@@ -19,10 +19,7 @@ export function Contact() {
                     <input type="submit" value="Send Message" class="submitBtn"></input>
                     <a href="#home" class="upBtn"><i class='bx bx-upvote'></i></a>
                 </div>
-            </form>
-            {/* <div class="upBtn">
-                <a href="#home"><i class='bx bx-upvote' ></i></a>
-            </div> */}
+            </form> 
         </section>
     );
 }

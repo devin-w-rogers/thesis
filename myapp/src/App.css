@@ -282,7 +282,7 @@ p {
   padding: .8rem 2.3rem;
   background: #ff4000;
   border-radius: 4rem;
-  border: solid #505050 .2rem;
+  border: solid #ff4000 .2rem;
   box-shadow: 0 0 1.2rem #ff4000;
   font-size: 1.3rem;
   color: white;
@@ -291,6 +291,7 @@ p {
 
 .submitBtn:hover {
   box-shadow: none;
+  cursor: pointer;
 }
 
 .upBtn a {
