@@ -13,7 +13,7 @@ export function Work() {
                     <img src={work1}></img>
                     <div class="work-layer">
                         <h4>Poker Evaluator</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate commodi, et incidunt hic animi!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate commodi, et incidunt hic animi! </p>
                         <a href="#"><i class="bx bx-link-external"></i></a>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ export function Work() {
                     <img src={work1}></img>
                     <div class="work-layer">
                         <h4>Scheduling App</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem soluta aliquam perspiciatis vitae fugiat.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem soluta aliquam perspiciatis.</p>
                         <a href="#"><i class="bx bx-link-external"></i></a>
                     </div>
                 </div>

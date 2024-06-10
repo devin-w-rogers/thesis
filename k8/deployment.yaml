@@ -22,3 +22,20 @@ spec:
             cpu: "500m"
         ports:
         - containerPort: 3000
+
+        # docker build -t devinwrogers/thesis-myapp:latest ./myapp
+        # docker login
+        # docker push devinwrogers/thesis-myapp:latest
+
+        # kubectl apply -f ./k8/deployment.yaml
+        # check if deployment worked/pod is running (kubectl get deployment, pods)
+        # kubectl apply -f ./k8/service.yaml (usually not needed)
+        # check for service (kubectl get svc)
+        # minikube service myapp-service (this will open website on localhost)
+
+
+        # IF DEPLOYMENT/SERVICE ALREADY APPLIED...
+        # docker build, login, then push
+        # delete current pods
+        # minikube service myapp-service
+        

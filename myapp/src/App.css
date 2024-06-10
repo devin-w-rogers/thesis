@@ -152,7 +152,7 @@ p {
   margin-bottom: 4rem;
   color: white;
   text-align: center;
-  padding-top: 12.5vh;
+  padding-top: 13.5vh;
   font-size: 8vh;
 }
 
@@ -162,6 +162,7 @@ p {
   align-items: center;
   gap: 2.5rem;
   padding: 1rem 2rem;
+  margin-top: 12vh;
 }
 
 .work-container .work-box{
