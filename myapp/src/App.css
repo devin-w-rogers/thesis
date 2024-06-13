@@ -121,8 +121,8 @@ p {
 
 .social a:hover {
   color: #ffffff;
-  box-shadow: 0 0 10px #ff4000;
-  text-shadow: 0 0 10px #ffffff;
+  box-shadow: 0 0 12px #ff4000;
+  text-shadow: 0 0 12px #ffffff;
   border: .2rem solid #ff4000;
 }
 
@@ -144,21 +144,23 @@ p {
   margin-right: auto;
   margin-left: auto;
   text-decoration-line: none;
+  box-shadow: 0 0 13px #ff4000;
+  border: .2rem solid #ff4000;
   cursor: pointer;
-  transition: .25s;
+  transition: .40s;
+  
 }
 
 .resumeBtn:hover::before {
   transform: scale(1.1);
   box-shadow: 0 0 15px #ffffff;
-
 }
 
 .resumeBtn:hover {
   color: #ffffff;
+  background-color:#ff4000;
   box-shadow: 0 0 10px #ff4000;
   text-shadow: 0 0 10px #ffffff;
-  border: .2rem solid #ff4000;
 }
 
 
