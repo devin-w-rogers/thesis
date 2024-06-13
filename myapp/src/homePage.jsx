@@ -1,4 +1,5 @@
 import hexaheadshot from "./hexa-headshot.png"
+import {openResume} from './Script.jsx'; 
 
 
 export function HomePage() {
@@ -15,10 +16,8 @@ export function HomePage() {
                 </p>
                 <div class="social">
                     <a href="https://www.linkedin.com/in/devinwolfrogers" target="_blank" rel="noopener"><i class='bx bxl-linkedin'></i></a>
-                    <button id="openResume" class="resumeBtn">View Resume</button>
+                    <button id="openResume" class="resumeBtn" onClick={openResume}>View Resume</button>
                     <a href="https://github.com/devin-w-rogers" target="_blank" rel="noopener"><i class='bx bxl-github' ></i></a>
-                </div>
-                <div class="resume">
                 </div>
             </div>
         </main>

@@ -1,4 +1,5 @@
 import './App.css';
+import './Script.jsx';
 import { NavBar } from "./navBar"
 import { HomePage } from "./homePage"
 import { AboutMe } from "./aboutMe"

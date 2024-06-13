@@ -144,12 +144,14 @@ p {
   margin-right: auto;
   margin-left: auto;
   text-decoration-line: none;
+  cursor: pointer;
   transition: .25s;
 }
 
 .resumeBtn:hover::before {
   transform: scale(1.1);
   box-shadow: 0 0 15px #ffffff;
+
 }
 
 .resumeBtn:hover {
