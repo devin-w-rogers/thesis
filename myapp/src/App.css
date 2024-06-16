@@ -9,6 +9,26 @@
   scroll-behavior: smooth;
 }
 
+html {
+  scroll-snap-type: mandatory;
+}
+
+:root {
+
+}
+
+/* section {
+  padding: 0px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+.darkBG {
+  background: radial-gradient(#1a1a1a, #0a0a0a); /* 10%, 50% 
+} */
+
 /* Nav Bar Styles --------------------------------------------------------- */
 nav {
   background-color: white; /* pale orange: #f5e9e0 */
@@ -35,7 +55,7 @@ nav a {
   /*line-height: 2rem;*/
   font-size: 1.15rem;
   color: black;
-  transition: .35s;
+  transition: .25s;
 }
 
 nav a:hover {
@@ -60,13 +80,13 @@ nav img {
 
 /* Home Page Styles --------------------------------------------------------- */
 main {
-  background-color: #8b8b8b;
   background: radial-gradient(#1a1a1a, #0a0a0a); /* 10%, 50% */
   padding: 0px 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  scroll-snap-align: start;
 }
 
 .hexhs {
@@ -167,12 +187,13 @@ p {
 /* About Me Styles --------------------------------------------------------- */
 #aboutMe {
   background-color: #262626; /* #262626 */
+  scroll-margin-top: 10vh;
   padding: 0px 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  scroll-behavior: smooth
+  height: 90vh;
+  scroll-snap-align: start;
 }
 
 #aboutText {
@@ -183,14 +204,16 @@ p {
 /* Portfolio Styles -------------------------------------------------------- */
 .work {
   background: radial-gradient(#1a1a1a, #0a0a0a);
-  height: 100vh;
+  height: 90vh;
+  scroll-margin-top: 10vh;
+  scroll-snap-align: start;
 }
 
 .work h2 {
   margin-bottom: 4rem;
   color: white;
   text-align: center;
-  padding-top: 13.5vh;
+  padding-top: 7vh;
   font-size: 8vh;
 }
 
@@ -269,15 +292,17 @@ p {
 /* Contact Styles -------------------------------------------------------- */
 .contact {
   background-color: #262626; /* #262626 */
+  scroll-margin-top: 10vh;
   padding: 0px 30px;
-  min-height: 89vh;
+  height: 90vh;
+  scroll-snap-align: start;
 }
 
 .contact h2 {
   margin-bottom: 0rem;
   color: white;
   text-align: center;
-  padding: 1rem 0;
+  padding: 7vh 0;
   font-size: 8vh;
 }
 
