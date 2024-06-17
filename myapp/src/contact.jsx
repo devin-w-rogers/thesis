@@ -11,7 +11,7 @@ export function Contact() {
                     <input type="email" placeholder="Email Address"></input>
                 </div>
                 <div class="inputBox">
-                    <input type="number" placeholder="Mobile Number"></input>
+                    <input type="phone-number" placeholder="Mobile Number"></input>
                     <input type="email" placeholder="Email Subject"></input>
                 </div>
                 <textarea name="" id="" cols="30" rows="8" placeholder=" Your Message"></textarea>

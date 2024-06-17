@@ -70,7 +70,7 @@ nav a {
   margin-bottom: 3.5vh;
   text-decoration: none;
   /*line-height: 2rem;*/
-  font-size: 1.15rem;
+  font-size: 2.8vh; /* 1.15rem */
   color: white;
   transition: .25s;
 }
@@ -132,12 +132,12 @@ h1 {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 7rem; /* 7rem */
-  height: 7rem; /* 7rem */
+  width: 15vh; /* 7rem */
+  height: 15vh; /* 7rem */
   background: transparent;
   border: .2rem solid var(--gray); /* #ac4828, #ac6034 */
   border-radius: 50%;
-  font-size: 3.8rem; /* 3.8rem */
+  font-size: 8vh; /* 3.8rem */
   color: #b8b8b8;
   margin-right: auto;
   margin-left: auto;
@@ -165,9 +165,9 @@ h1 {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  font-size: 3vh;
-  width: 13rem; /* 13rem */
-  height: 7rem; /* 7rem */
+  font-size: 3.2vh;
+  width: 28vh; /* 13rem */
+  height: 15vh; /* 7rem */
   background: transparent;
   border: .2rem solid var(--gray); /* #ac4828, #ac6034 */
   border-radius: 5vw;
@@ -318,7 +318,7 @@ h1 {
 }
 
 .contact form {
-  width: 70vw;
+  width: 80vw;
   margin: 0 auto;
   text-align: center;
 }
@@ -331,10 +331,10 @@ h1 {
 
 .contact form .input-box input,
 .contact form textarea {
-  width: 50vw;
+  width: 55vw;
   height: 25vh;
   padding: 2.2vh;
-  font-size: 2.2vh;
+  font-size: 2.4vh;
   color: white;
   background: var(--gray);
   border-radius: .3rem;
@@ -346,15 +346,15 @@ h1 {
 
 .inputBox input{
   width: 20vw;
-  height: 1vh;
+  height: 1.2vh;
   padding: 2.2vh;
-  font-size: 2.2vh;
+  font-size: 2.4vh;
   color: white;
   background: var(--gray);
   border-radius: .3rem;
   border-color: white;
   border-width: 2px;
-  margin: 1vh .5vh;
+  margin: 1vh;
 }
 
 .submitBtn { /* CHANGE THIS TO HAVE SAME STYLE AS SOCIAL/BACK TO TOP BUTTONS*/
