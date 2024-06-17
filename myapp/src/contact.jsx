@@ -3,7 +3,7 @@
 export function Contact() {
     return(
         <section class="contact" id="contact">
-            <h2 class="heading">Contact Me</h2>
+            <h2 class="heading">Contact Me!</h2>
 
             <form action="#">
                 <div class="inputBox">
@@ -20,7 +20,7 @@ export function Contact() {
                     <a href="#home" class="upBtn"><i class='bx bx-upvote'></i></a>
                 </div>
             </form> 
-        </section>
+        </section>  
     );
 }
 

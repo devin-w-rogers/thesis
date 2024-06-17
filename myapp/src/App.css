@@ -14,7 +14,8 @@ html {
 }
 
 :root {
-
+  --bright-orange: #ff4000; 
+  --gray: #505050; 
 }
 
 /* section {
@@ -31,7 +32,9 @@ html {
 
 /* Nav Bar Styles --------------------------------------------------------- */
 nav {
-  background-color: white; /* pale orange: #f5e9e0 */
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); 
   overflow: hidden;
   padding-right: 5%;
   position: fixed;
@@ -54,12 +57,12 @@ nav a {
   text-decoration: none;
   /*line-height: 2rem;*/
   font-size: 1.15rem;
-  color: black;
+  color: white;
   transition: .25s;
 }
 
 nav a:hover {
-  color: rgb(172,72,40);
+  color: var(--bright-orange);
 }
 
 nav img {
@@ -109,7 +112,7 @@ p {
   color: white;
   margin-top: .5em;
   margin-bottom: 1em;
-  font-size: 3.5vh;
+  font-size: 3vh;
   text-align: center;
 }
 
@@ -124,7 +127,7 @@ p {
   width: 7rem; /* 7rem */
   height: 7rem; /* 7rem */
   background: transparent;
-  border: .2rem solid #505050; /* #ac4828, #ac6034 */
+  border: .2rem solid var(--gray); /* #ac4828, #ac6034 */
   border-radius: 50%;
   font-size: 3.8rem; /* 3.8rem */
   color: #b8b8b8;
@@ -141,9 +144,9 @@ p {
 
 .social a:hover {
   color: #ffffff;
-  box-shadow: 0 0 12px #ff4000;
+  box-shadow: 0 0 12px var(--bright-orange);
   text-shadow: 0 0 12px #ffffff;
-  border: .2rem solid #ff4000;
+  border: .2rem solid var(--bright-orange);
 }
 
 .resume {
@@ -158,14 +161,14 @@ p {
   width: 13rem; /* 13rem */
   height: 7rem; /* 7rem */
   background: transparent;
-  border: .2rem solid #505050; /* #ac4828, #ac6034 */
+  border: .2rem solid var(--gray); /* #ac4828, #ac6034 */
   border-radius: 5vw;
   color: #b8b8b8;
   margin-right: auto;
   margin-left: auto;
   text-decoration-line: none;
-  box-shadow: 0 0 13px #ff4000;
-  border: .2rem solid #ff4000;
+  box-shadow: 0 0 13px var(--bright-orange);
+  border: .2rem solid var(--bright-orange);
   cursor: pointer;
   transition: .40s;
   
@@ -178,8 +181,8 @@ p {
 
 .resumeBtn:hover {
   color: #ffffff;
-  background-color:#ff4000;
-  box-shadow: 0 0 10px #ff4000;
+  background-color:var(--bright-orange);
+  box-shadow: 0 0 10px var(--bright-orange);
   text-shadow: 0 0 10px #ffffff;
 }
 
@@ -307,7 +310,7 @@ p {
 }
 
 .contact form {
-  max-width: 70vw;
+  width: 70vw;
   margin: 0 auto;
   text-align: center;
 }
@@ -320,23 +323,29 @@ p {
 
 .contact form .input-box input,
 .contact form textarea {
-  width: 100%;
+  width: 50vw;
+  height: 25vh;
   padding: 2.2vh;
-  font-size: 2.8vh;
+  font-size: 2.2vh;
   color: white;
-  background: #505050;
-  border-radius: .8rem;
+  background: var(--gray);
+  border-radius: .3rem;
+  border-color: white;
+  border-width: 2px;
   margin: 1vh 0;
   resize: none;
 }
 
 .inputBox input{
-  width: 25vw;
+  width: 20vw;
+  height: 1vh;
   padding: 2.2vh;
-  font-size: 2.8vh;
+  font-size: 2.2vh;
   color: white;
-  background: #505050;
-  border-radius: .8rem;
+  background: var(--gray);
+  border-radius: .3rem;
+  border-color: white;
+  border-width: 2px;
   margin: 1vh .5vh;
 }
 
@@ -344,17 +353,16 @@ p {
   display: inline-block;
   margin: 3vh;  
   padding: .8rem 2.3rem;
-  background: #ff4000;
+  background: var(--bright-orange);
   border-radius: 4rem;
-  border: solid #ff4000 .2rem;
-  box-shadow: 0 0 1.2rem #ff4000;
+  border: solid white 2px;
   font-size: 1.3rem;
   color: white;
   transition: .5s ease;
 }
 
 .submitBtn:hover {
-  box-shadow: none;
+  box-shadow: 0 0 1.5rem var(--bright-orange);
   cursor: pointer;
 }
 
@@ -365,7 +373,7 @@ p {
   width: 4rem;
   height: 4rem;
   background: transparent;
-  border: .2rem solid #505050; /* #ac4828, #ac6034 */
+  border: .2rem solid var(--gray); /* #ac4828, #ac6034 */
   border-radius: 50%;
   font-size: 2rem;
   color: #b8b8b8;
@@ -384,7 +392,7 @@ p {
 
 .upBtn a:hover {
   color: #ffffff;
-  box-shadow: 0 0 10px #ff4000;
+  box-shadow: 0 0 10px var(--bright-orange);
   text-shadow: 0 0 10px #ffffff;
-  border: .2rem solid #ff4000;
+  border: .2rem solid var(--bright-orange);
 }

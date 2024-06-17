@@ -3,10 +3,11 @@ import hexaheadshot from "./hexa-headshot.png"
 export function AboutMe() {
     return(
         <body id="aboutMe">
-            <p id="aboutText"> I'm currently a senior Computer Science student at Carthage College and will be
-            graduating in May of 2024. Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Architecto maxime culpa quas debitis et ullam quis in tenetur, id provident excepturi
-            dolorem minima vitae beatae nihil numquam sunt laborum necessitatibus! </p>
+            <p id="aboutText"> Having just recently graduated from Carthage College, I am really looking forward to applying
+                my skills in a real work setting. I have experience with traditional software development and web development, 
+                primarily on the front-end. I have worked in an agile environment during my internship 
+                at General Dynamics Mission Systems with the DevSecOps team, utilizing user stories (Jira) and version control (Git). 
+                I am a quick learner because I genuinely enjoy improving myself in every way possible.</p>
             <div style={{paddingTop: '40px'}}>
                 <img src={hexaheadshot} class="hexhs" id="aboutHexHS" alt="headshot" /> 
             </div>
