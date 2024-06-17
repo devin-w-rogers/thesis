@@ -32,14 +32,14 @@ html {
 
 p {
   color: white;
-  font-size: 3vh;
+  font-size: 3vh; /* 1.44vw */ 
   text-align: center;
 }
 
 h2 {
   color: white;
   text-align: center;
-  font-size: 3.8vh;
+  font-size: 3.8vh; /* 2vw */
   font-weight: 100;
 }
 
@@ -91,7 +91,7 @@ nav img {
   display: none;
 }
 
-@media (max-width: 655px) { /* Write the mobile nav bar here. */
+@media only screen and (min-width: 655px) { /* Write the mobile nav bar here. */
 
 }
 
@@ -116,7 +116,7 @@ main {
 
 h1 {
   color: white;
-  font-size: 10vh;
+  font-size: 10vh; /*  4.8vw */
   margin-top: 0;
   margin-bottom: 1.5vh;
   text-align: center;
