@@ -30,6 +30,20 @@ html {
   background: radial-gradient(#1a1a1a, #0a0a0a); /* 10%, 50% 
 } */
 
+p {
+  color: white;
+  font-size: 3vh;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 3.8vh;
+  font-weight: 100;
+}
+
+
 /* Nav Bar Styles --------------------------------------------------------- */
 nav {
   background-color: rgba(255, 255, 255, 0.4);
@@ -104,20 +118,14 @@ h1 {
   color: white;
   font-size: 10vh;
   margin-top: 0;
-  margin-bottom: 0;
-  text-align: center;
-}
-
-p {
-  color: white;
-  margin-top: .5em;
-  margin-bottom: 1em;
-  font-size: 3vh;
+  margin-bottom: 1.5vh;
   text-align: center;
 }
 
 .social {
   display: flex;
+  position: relative;
+  top: 15vh;
 }
 
 .social a {
@@ -188,7 +196,7 @@ p {
 
 
 /* About Me Styles --------------------------------------------------------- */
-#aboutMe {
+.aboutMe {
   background-color: #262626; /* #262626 */
   scroll-margin-top: 10vh;
   padding: 0px 30px;
@@ -199,8 +207,8 @@ p {
   scroll-snap-align: start;
 }
 
-#aboutText {
-  line-height: 2;
+.aboutText {
+  line-height: 1.8;
   margin-right: 3vw;
 }
 
