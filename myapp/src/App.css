@@ -70,7 +70,7 @@ nav a {
   margin-bottom: 3.5vh;
   text-decoration: none;
   /*line-height: 2rem;*/
-  font-size: 2.8vh; /* 1.15rem */
+  font-size: 2.2vh; /* 1.15rem */
   color: white;
   transition: .25s;
 }
@@ -132,12 +132,12 @@ h1 {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 15vh; /* 7rem */
-  height: 15vh; /* 7rem */
+  width: 13vh; /* 7rem */
+  height: 13vh; /* 7rem */
   background: transparent;
   border: .2rem solid var(--gray); /* #ac4828, #ac6034 */
   border-radius: 50%;
-  font-size: 8vh; /* 3.8rem */
+  font-size: 6.7vh; /* 3.8rem */
   color: #b8b8b8;
   margin-right: auto;
   margin-left: auto;
@@ -166,8 +166,8 @@ h1 {
   justify-content: center;
   align-items: center;
   font-size: 3.2vh;
-  width: 28vh; /* 13rem */
-  height: 15vh; /* 7rem */
+  width: 27vh; /* 13rem */
+  height: 13vh; /* 7rem */
   background: transparent;
   border: .2rem solid var(--gray); /* #ac4828, #ac6034 */
   border-radius: 5vw;

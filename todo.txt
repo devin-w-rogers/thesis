@@ -1,7 +1,5 @@
 make each section snap when scrolled to
-make entire website mobile friendly
--- add some distance to buttons on home page (make them lower on screen without moving the text above it)
-mess with sizing of home screen text (make <p> smaller?)
+-- make entire website mobile friendly
 add better hover effect on nav bar links
 get higher quality picture for home screen picture of self
 make projects section fit the rest of website aesthetic
