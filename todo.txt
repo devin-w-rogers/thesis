@@ -1,7 +1,14 @@
 make each section snap when scrolled to
--- make entire website mobile friendly
+
+** make entire website mobile friendly
+--> figure out how to make social buttons take up whole width of page at certain widths (1120 or 943)
+
 add better hover effect on nav bar links
+
 get higher quality picture for home screen picture of self
+
 make projects section fit the rest of website aesthetic
+
 make contact page functional
+
 create and implement hexagon pattern background for the main page

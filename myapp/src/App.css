@@ -91,10 +91,6 @@ nav img {
   display: none;
 }
 
-@media only screen and (min-width: 655px) { /* Write the mobile nav bar here. */
-
-}
-
 /* Home Page Styles --------------------------------------------------------- */
 main {
   background: radial-gradient(#1a1a1a, #0a0a0a); /* 10%, 50% */
@@ -107,7 +103,7 @@ main {
 }
 
 .hexhs {
-  width: 38vw; /* 34vw */
+  width: 38vw; /* 79vh */
 }
 
 .hexhsContainer {
@@ -193,6 +189,125 @@ h1 {
   box-shadow: 0 0 10px var(--bright-orange);
   text-shadow: 0 0 10px #ffffff;
 }
+
+@media (max-width: 1765px) {
+  h1 {
+    font-size: 8.8vh;
+  }
+  h2 {
+    font-size: 3.6vh;
+  }
+  p {
+    font-size: 2.7vh;
+  }
+  .resumeBtn {
+    font-size: 3vh;
+    width: 24.8vh; 
+    height: 11vh; 
+  }
+  .social a {
+    width: 11vh; 
+    height: 11vh; 
+    font-size: 5.8vh; 
+  }
+  .hexhs {
+    width: 40vw;
+  }
+}
+
+@media (max-width: 1616px) {
+  h1 {
+    font-size: 7.5vh;
+  }
+  .hexhs {
+    width: 45vw;
+  }
+} 
+
+@media (max-width: 1348px) {
+  h1 {
+    font-size: 7.2vh;
+  }
+  h2 {
+    font-size: 3.3vh;
+  }
+  p {
+    font-size: 2.5vh;
+  }
+  .hexhs {
+    width: 48vw;
+  }
+  .resumeBtn {
+    font-size: 2.6vh;
+    width: 21vh; 
+    height: 10vh; 
+  }
+  .social a {
+    width: 10vh; 
+    height: 10vh; 
+    font-size: 5.6vh; 
+  }
+
+} 
+
+@media (max-width: 1120px) {
+  h1 {
+    font-size: 6.8vh;
+  }
+  h2 {
+    font-size: 3.25vh;
+  }
+  p {
+    font-size: 2.4vh;
+  }
+  .hexhs {
+    width: 50vw;
+  }
+  .resumeBtn {
+    font-size: 2.2vh;
+    width: 18vh; 
+    height: 8.3vh; 
+  }
+  .social a {
+    width: 8.3vh; 
+    height: 8.3vh; 
+    font-size: 4.5vh; 
+  }
+  .social {
+    top: 11vh;
+  }
+
+} 
+
+@media (max-width: 943px) {
+  h1 {
+    font-size: 6.8vh;
+  }
+  h2 {
+    font-size: 3.25vh;
+  }
+  p {
+    font-size: 2.4vh;
+  }
+  .hexhs {
+    width: 50vw;
+  }
+  .resumeBtn {
+    font-size: 2vh;
+    width: 15vh; 
+    height: 7vh; 
+  }
+  .social a {
+    width: 7vh; 
+    height: 7vh; 
+    font-size: 4.5vh; 
+  }
+  .social {
+    top: 11vh;
+  }
+
+} 
+
 
 
 /* About Me Styles --------------------------------------------------------- */
