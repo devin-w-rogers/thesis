@@ -1,7 +1,23 @@
 import myLogo from "./myLogo.png"
 import './Script.jsx';
+import { useEffect } from 'react';
 
 export function NavBar() {
+
+    useEffect(() => {                                           // Code to open mobile navbar
+        const menuIcon = document.querySelector('#menuIcon');
+        const nav = document.querySelector('.navbar');
+
+        if (menuIcon) {
+            menuIcon.onclick = () => {
+                menuIcon.classList.toggle('bx-x');
+                nav.classList.toggle('active');
+            };
+        } else {
+            console.error('menuIcon element not found');
+        }
+    }, []); 
+
     return(
         <header>
             <img src={myLogo} alt="my-logo" class="logo"/>
