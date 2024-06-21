@@ -5,9 +5,7 @@ import {openResume} from './Script.jsx';
 export function HomePage() {
     return(
         <main id="home">
-            <div class="hexhsContainer">
-                <img src={hexaheadshot} class="hexhs animate__animated animate__fadeInLeft" alt="headshot" /> 
-            </div>
+            <img src={hexaheadshot} class="hexhs animate__animated animate__fadeInLeft" alt="headshot" /> 
             <div class="container animate__animated animate__fadeInUp">
                 <h2>Hello! My name is</h2>
                 <h1>Devin Wolf Rogers.</h1>
