@@ -114,8 +114,9 @@ main {
 }
 
 .hexhs {
-  width: 38vw; /* 79vh */
+  width: 41vw; /* 79vh */
   margin-top: 14vh;
+  margin-left: -1vw;
 }
 
 .hexhsContainer {
@@ -223,7 +224,7 @@ h1 {
     font-size: 5.8vh; 
   }
   .hexhs {
-    width: 40vw;
+    width: 43vw;
   }
 }
 
@@ -232,7 +233,7 @@ h1 {
     font-size: 7.5vh;
   }
   .hexhs {
-    width: 45vw;
+    width: 48vw;
   }
 } 
 
@@ -247,7 +248,7 @@ h1 {
     font-size: 2.5vh;
   }
   .hexhs {
-    width: 48vw;
+    width: 50vw;
   }
   .resumeBtn {
     font-size: 2.6vh;
@@ -273,7 +274,7 @@ h1 {
     font-size: 2.4vh;
   }
   .hexhs {
-    width: 50vw;
+    width: 52vw;
   }
   .resumeBtn {
     font-size: 2.1vh;
@@ -300,13 +301,15 @@ h1 {
   }
   h2 {
     font-size: 3.25vh;
+    margin-top: -3vh;
   }
   p {
     font-size: 2.4vh;
   }
   .hexhs {
-    width: 50vw;
+    width: 53vw;
     margin-top: 0;
+    margin-left: 0;
   }
   .resumeBtn {
     font-size: 2.3vh;
@@ -349,6 +352,9 @@ h1 {
     text-align: center;
     width: 100%;
   } 
+  .aboutMe {
+    height: 90vh;
+  }
 } 
 
 
