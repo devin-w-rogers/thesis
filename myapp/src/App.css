@@ -577,7 +577,7 @@ h1 {
   transition: 0.3s;
   border-radius: 25px;
   border: .2rem solid var(--dim-orange);
-  background-color:#0f0f0f; /* #0a0a0a */
+  background-color:#333333; /* #0f0f0f black-ish, #333333 gray */
   text-align: center;
   margin: 0 1.5vw;
 }
@@ -616,7 +616,7 @@ h1 {
   align-items: center;
   width: 20vh; 
   height: 9vh; 
-  background: transparent;
+  background: #1a1a1a; /* #222222 */
   border: .2rem solid var(--dim-orange); /* #ac4828, #ac6034 */
   border-radius: 25px;
   font-size: 2.6vh; 
