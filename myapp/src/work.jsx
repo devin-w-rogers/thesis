@@ -9,29 +9,34 @@ export function Work() {
             <h2 class="heading">Some <span>Projects</span> </h2>
 
             <div class="work-container">
-                <div class="work-box">
-                    <img src={work1}></img>
-                    <div class="work-layer">
-                        <h4>Poker Evaluator</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate commodi, et incidunt hic animi! </p>
-                        <a href="#"><i class="bx bx-link-external"></i></a>
+                <div class="card">
+                    <div class="inCard">
+                        <h3>Project Name</h3>
+                        <p>This project does this and this and that. 
+                            It used this technology and that one too.
+                            I really learned how to do this and that, 
+                            and this also did something for that. </p>
+                        <button>Check it out!<i class='bx bx-link-external'></i></button>
                     </div>
                 </div>
-                <div class="work-box">
-                    <img src={work2}></img>
-                    <div class="work-layer">
-                        <h4>String Finder</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit dolore doloribus ratione quis.
-                        </p>
-                        <a href="#"><i class="bx bx-link-external"></i></a>
+                <div class="card">
+                    <div class="inCard">
+                        <h3>Project Name</h3>
+                        <p>This project does this and this and that. 
+                            It used this technology and that one too.
+                            I really learned how to do this and that, 
+                            and this also did something for that. </p>
+                        <button>Check it out!<i class='bx bx-link-external'></i></button>
                     </div>
                 </div>
-                <div class="work-box">
-                    <img src={work1}></img>
-                    <div class="work-layer">
-                        <h4>Scheduling App</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem soluta aliquam perspiciatis.</p>
-                        <a href="#"><i class="bx bx-link-external"></i></a>
+                <div class="card">
+                    <div class="inCard">
+                        <h3>Project Name</h3>
+                        <p>This project does this and this and that. 
+                            It used this technology and that one too.
+                            I really learned how to do this and that, 
+                            and this also did something for that. </p>
+                        <button>Check it out!<i class='bx bx-link-external'></i></button>
                     </div>
                 </div>
             </div>

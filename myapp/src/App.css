@@ -16,6 +16,7 @@ html {
 :root {
   --bright-orange: #ff4000; 
   --gray: #505050; 
+  --dim-orange: #ac4828;
 }
 
 /* section {
@@ -40,7 +41,7 @@ h2 {
   color: white;
   text-align: center;
   font-size: 3.8vh; /* 2vw */
-  font-weight: 100;
+  font-weight: 200;
 }
 
 
@@ -188,7 +189,6 @@ h1 {
   border: .2rem solid var(--bright-orange);
   cursor: pointer;
   transition: .40s;
-  
 }
 
 .resumeBtn:hover::before {
@@ -198,8 +198,8 @@ h1 {
 
 .resumeBtn:hover {
   color: #ffffff;
-  background-color:var(--bright-orange);
-  box-shadow: 0 0 10px var(--bright-orange);
+  background-color: var(--bright-orange);
+  box-shadow: 0 0 25px var(--bright-orange);
   text-shadow: 0 0 10px #ffffff;
 }
 
@@ -567,4 +567,78 @@ h1 {
   box-shadow: 0 0 10px var(--bright-orange);
   text-shadow: 0 0 10px #ffffff;
   border: .2rem solid var(--bright-orange);
+}
+
+
+/* NEW WORK SECTION STYLES TEMP --- WILL MOVE UP WHEN FINISHED */
+
+.card {
+  box-shadow: 0 0 25px rgba(0,0,0,0.9);
+  transition: 0.3s;
+  border-radius: 25px;
+  border: .2rem solid var(--dim-orange);
+  background-color:#0f0f0f; /* #0a0a0a */
+  text-align: center;
+  margin: 0 1.5vw;
+}
+
+.card:hover {
+  box-shadow: 0 0 25px rgba(255, 64, 0, .7);
+  border-color: var(--bright-orange);
+  transform: scale(1.05);
+  /* background-color:#3d3d3d; */
+}
+
+/* .card:hover button {
+  border-color: white;
+} */
+
+.inCard {
+  padding: 10px 20px;
+}
+
+.card h3 {
+  color: white;
+  font-size: 4.45vh;
+  font-weight: 150;
+  margin-bottom: 3vh;
+  margin-top: 1vh;
+}
+
+.card p {
+  font-size: 2.5vh;
+}
+
+.card button {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20vh; 
+  height: 9vh; 
+  background: transparent;
+  border: .2rem solid var(--dim-orange); /* #ac4828, #ac6034 */
+  border-radius: 25px;
+  font-size: 2.6vh; 
+  color: #b8b8b8;
+  text-decoration-line: none;
+  transition: .25s;
+  margin: 4.2vh 0 3vh;
+}
+
+.card button::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #ffffff;
+}
+
+.card button:hover {
+  color: #ffffff;
+  box-shadow: 0 0 12px var(--bright-orange);
+  text-shadow: 0 0 12px #ffffff;
+  border: .2rem solid var(--bright-orange);
+}
+
+.card i {
+  margin-top: .5vh;
+  font-size: 2.3vh;
 }
