@@ -10,7 +10,7 @@ export function HomePage() {
                 <h2>Hello! My name is</h2>
                 <h1>Devin Wolf Rogers.</h1>
                 <p style={{ marginLeft: '1vw', marginRight: '1vw', lineHeight: '1.5'}}>
-                    I am a recent graduate from Carthage College with a BA in Computer Science and am looking forward to joining the workforce! Thanks for looking at my website!
+                    I am a recent graduate from Carthage College with a Bachelor's in Computer Science and am looking forward to joining the workforce! Thanks for looking at my website!
                 </p>
                 <div class="social">
                     <a href="https://www.linkedin.com/in/devinwolfrogers" target="_blank" rel="noopener"><i class='bx bxl-linkedin'></i></a>
