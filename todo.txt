@@ -9,3 +9,4 @@ get higher quality picture for home screen picture of self
 make contact page functional
 
 -- create and implement hexagon pattern background for the main page
+->> make the hexagon pattern mobile friendly

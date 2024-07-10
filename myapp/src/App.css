@@ -471,7 +471,13 @@ h1 {
 
 /* Contact Styles -------------------------------------------------------- */
 .contact {
-  background-color: #262626; /* #262626 */
+  background: 
+  url('../public/hexContactRight.png') 30vw, /*  */
+  url('../public/hexContactLeft.png'),
+  radial-gradient(#262626, #262626);
+  background-size: 34vw, 34vw, auto; /* First value for the image, second for the gradient */
+  background-position: right -.5vh, left 10vh, center; /* First value for the image, second for the gradient */
+  background-repeat: no-repeat, no-repeat, no-repeat; /* First value for the image, second for the gradient */
   scroll-margin-top: 10vh;
   padding: 0px 30px;
   height: 90vh;
