@@ -364,7 +364,12 @@ h1 {
 
 /* About Me Styles --------------------------------------------------------- */
 .aboutMe {
-  background-color: #262626; /* #262626 */
+  background: 
+  url('../public/hexAboutMeNew.png'), /*  */
+  radial-gradient(#262626, #262626);
+  background-size: 52vw, auto; /* First value for the image, second for the gradient */
+  background-position: 5vh 25vh, center; /* First value for the image, second for the gradient */
+  background-repeat: no-repeat, no-repeat;
   scroll-margin-top: 10vh;
   padding: 0px 30px;
   display: flex;
