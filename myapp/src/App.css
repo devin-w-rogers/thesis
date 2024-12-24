@@ -33,14 +33,14 @@ html {
 
 p {
   color: white;
-  font-size: 3vh; /* 1.44vw */ 
+  font-size: 3vh; /* 3vh */ 
   text-align: center;
 }
 
 h2 {
   color: white;
   text-align: center;
-  font-size: 3.8vh; /* 2vw */
+  font-size: 3.8vh; /* 3.8vh */
   font-weight: 200;
 }
 
@@ -58,7 +58,7 @@ header {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-  height: 8.5vh;
+  height: 8.5vh; /* 8.5vh */
 }
 
 /* .navbar {
@@ -92,13 +92,13 @@ header {
 
 .logo {
   float: left;
-  height: 7vh; /* 3rem */ 
+  height: 7vh; /* 7vh */ 
   padding: 1.25vh;
   padding-left: 3vh;
 }
 
 #menuIcon {
-  font-size: 5vh;
+  font-size: 5vh; /* 5vh */
   display: none;
   color: white;
 }
@@ -118,7 +118,7 @@ main {
 }
 
 .hexhs {
-  width: 41vw; /* 79vh */
+  width: 41vw; /* 41vw */
   margin-top: 14vh;
   margin-left: -1vw;
 }
@@ -129,7 +129,7 @@ main {
 
 h1 {
   color: white;
-  font-size: 10vh; /*  4.8vw */
+  font-size: 10vh; /*  10vh */
   margin-top: 0;
   margin-bottom: 1.5vh;
   text-align: center;
@@ -138,19 +138,19 @@ h1 {
 .social {
   display: flex;
   position: relative;
-  top: 15vh;
+  top: 15vh; /* 15vh */
 }
 
 .social a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 10vh; /* 7rem */
-  height: 10vh; /* 7rem */
+  width: 10vh; /* 10vh */
+  height: 10vh; /* 10vh */
   background: transparent;
   border: .2rem solid var(--gray); /* #ac4828, #ac6034 */
   border-radius: 50%;
-  font-size: 6vh; /* 3.8rem */
+  font-size: 6vh; /* 6vh */
   color: #b8b8b8;
   margin-right: auto;
   margin-left: auto;
@@ -178,12 +178,12 @@ h1 {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  font-size: 2.8vh;
-  width: 22vh; /* 13rem */
-  height: 10vh; /* 7rem */
+  font-size: 2.8vh; /* 2.8vh */
+  width: 22vh; /* 22vh */
+  height: 10vh; /* 10vh */
   background: transparent;
   border: .2rem solid var(--gray); /* #ac4828, #ac6034 */
-  border-radius: 5vw;
+  border-radius: 5vw; /* 5vw */
   color: #b8b8b8;
   margin-right: auto;
   margin-left: auto;
