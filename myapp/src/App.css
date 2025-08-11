@@ -104,9 +104,10 @@ header {
 }
 
 /* Home Page Styles --------------------------------------------------------- */
+/* Desktop first - original layout */
 main {
   background: 
-  url('../public/pat-hex.png'), /*  */
+  url('../public/pat-hex.png'),
   radial-gradient(#1a1a1a, #0a0a0a);
   padding: 0px 30px;
   display: flex;
@@ -118,44 +119,61 @@ main {
 }
 
 .hexhs {
-  width: 41vw; /* 41vw */
+  width: 41vw;
   margin-top: 14vh;
   margin-left: -1vw;
 }
 
-.hexhsContainer {
-  margin-top: 14vh;
+.container {
+  flex: 1;
+  margin-left: 2rem;
 }
 
 h1 {
   color: white;
-  font-size: 10vh; /*  10vh */
+  font-size: 10vh;
   margin-top: 0;
   margin-bottom: 1.5vh;
   text-align: center;
 }
 
+h2 {
+  color: white;
+  font-size: clamp(1rem, 3vh, 2rem);
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.intro-text {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  text-align: center;
+  line-height: 1.5;
+  color: #b8b8b8;
+}
+
 .social {
   display: flex;
   position: relative;
-  top: 15vh; /* 15vh */
+  top: 15vh;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .social a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 10vh; /* 10vh */
-  height: 10vh; /* 10vh */
+  width: clamp(50px, 10vw, 70px);
+  height: clamp(50px, 10vw, 70px);
   background: transparent;
-  border: .2rem solid var(--gray); /* #ac4828, #ac6034 */
+  border: 0.2rem solid var(--gray);
   border-radius: 50%;
-  font-size: 6vh; /* 6vh */
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
   color: #b8b8b8;
-  margin-right: auto;
-  margin-left: auto;
   text-decoration-line: none;
-  transition: .25s;
+  transition: 0.25s;
+  flex-shrink: 0;
 }
 
 .social a:hover::before {
@@ -167,31 +185,27 @@ h1 {
   color: #ffffff;
   box-shadow: 0 0 12px var(--bright-orange);
   text-shadow: 0 0 12px #ffffff;
-  border: .2rem solid var(--bright-orange);
-}
-
-.resume {
-  display: flex;
+  border: 0.2rem solid var(--bright-orange);
 }
 
 .resumeBtn {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  font-size: 2.8vh; /* 2.8vh */
-  width: 22vh; /* 22vh */
-  height: 10vh; /* 10vh */
+  font-size: clamp(0.9rem, 3vw, 1.2rem);
+  padding: 0.8rem 1.5rem;
+  min-height: clamp(50px, 10vw, 70px);
   background: transparent;
-  border: .2rem solid var(--gray); /* #ac4828, #ac6034 */
-  border-radius: 5vw; /* 5vw */
+  border: 0.2rem solid var(--gray);
+  border-radius: 2rem;
   color: #b8b8b8;
-  margin-right: auto;
-  margin-left: auto;
   text-decoration-line: none;
   box-shadow: 0 0 13px var(--bright-orange);
-  border: .2rem solid var(--bright-orange);
+  border: 0.2rem solid var(--bright-orange);
   cursor: pointer;
-  transition: .40s;
+  transition: 0.40s;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .resumeBtn:hover::before {
@@ -204,6 +218,104 @@ h1 {
   background-color: var(--bright-orange);
   box-shadow: 0 0 25px var(--bright-orange);
   text-shadow: 0 0 10px #ffffff;
+}
+
+/* Tablet breakpoint - transition to mobile layout */
+@media (max-width: 1024px) {
+  main {
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .hexhs {
+    width: min(350px, 60vw);
+    margin: 8.5vh auto -0.5rem auto;
+  }
+  
+  .container {
+    margin-left: 0;
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  h1 {
+    font-size: clamp(4rem, 8vw, 6vh);
+  }
+  
+  .intro-text {
+    text-align: center;
+    margin: 1rem 0 2rem 0;
+    font-size: 1.55rem;
+  }
+  
+  .social {
+    position: static;
+    top: auto;
+    justify-content: space-between;
+    gap: 4rem;
+    margin-top: 1rem;
+  }
+}
+
+/* Mobile breakpoint */
+@media (max-width: 768px) {
+  main {
+    padding: 15px;
+    min-height: 100svh;
+  }
+  
+  .hexhs {
+    width: min(300px, 70vw);
+  }
+  
+  .intro-text {
+    font-size: clamp(1rem, 3.3vw, 2rem);
+  }
+
+  h1 {
+    font-size: clamp(2rem, 8vw, 4rem);
+    word-break: break-word;
+  }
+  
+  .social {
+    margin-top: 4rem;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    padding: 10px;
+  }
+  
+  .hexhs {
+    margin-bottom: 1rem;
+  }
+  
+  .social {
+    justify-content: center;
+  }
+  
+  .resumeBtn {
+    width: auto;
+    min-width: 150px;
+  }
+  
+  .social a {
+    margin: 0;
+  }
+}
+
+/* Very small screens */
+@media (max-width: 320px) {
+  .social {
+    gap: 0.8rem;
+  }
+  
+  .resumeBtn {
+    font-size: 0.85rem;
+    padding: 0.7rem 1.2rem;
+  }
 }
 
 /*
