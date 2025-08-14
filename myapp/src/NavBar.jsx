@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 
 export function NavBar() {
 
-    useEffect(() => {                                           // Code to open mobile navbar
+    useEffect(() => {                                           
         const menuIcon = document.querySelector('#menuIcon');
         const nav = document.querySelector('.navbar');
 
@@ -16,15 +16,44 @@ export function NavBar() {
         } else {
             console.error('menuIcon element not found');
         }
+
+        // Close mobile menu when clicking on a nav link
+        const navLinks = document.querySelectorAll('.navbar a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                if (nav.classList.contains('active')) {
+                    menuIcon.classList.remove('bx-x');
+                    nav.classList.remove('active');
+                }
+            });
+        });
+
+        // Close mobile menu when clicking outside
+        const handleOutsideClick = (e) => {
+            if (!nav.contains(e.target) && !menuIcon.contains(e.target) && nav.classList.contains('active')) {
+                menuIcon.classList.remove('bx-x');
+                nav.classList.remove('active');
+            }
+        };
+
+        document.addEventListener('click', handleOutsideClick);
+
+        // Cleanup event listeners
+        return () => {
+            navLinks.forEach(link => {
+                link.removeEventListener('click', () => {});
+            });
+            document.removeEventListener('click', handleOutsideClick);
+        };
     }, []); 
 
     return(
         <header>
-            <img src={myLogo} alt="my-logo" class="logo"/>
+            <img src={myLogo} alt="my-logo" className="logo"/>
 
-            <i class='bx bx-menu' id="menuIcon"></i>
+            <i className='bx bx-menu' id="menuIcon"></i>
 
-            <nav class="navbar">
+            <nav className="navbar">
                 <a href="#home">Home</a>
                 <a href="#aboutMe">About Me</a>
                 <a href="#work">Projects</a>
@@ -33,4 +62,3 @@ export function NavBar() {
         </header>
     );
 }
-
