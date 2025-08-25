@@ -64,7 +64,6 @@ header {
 .navbar {
   display: flex;
   align-items: center;
-  padding-right: 3vh;
 }
 
 .navbar a {
@@ -146,13 +145,8 @@ header {
     margin-right: 2vh;
   }
 
-  .navbar {
-    padding-top: 2rem;
-  }
-
   .navbar a {
     font-size: 2.8vh;
-    margin-bottom: 1.5rem;
   }
 }
 
@@ -180,19 +174,17 @@ main {
 }
 
 .hexhs {
-  width: 41vw;
-  margin-top: 14vh;
-  margin-left: -1vw;
+  width: clamp(500px, 41vw, 700px);
+  margin-top: 12vh;
 }
 
 .container {
   flex: 1;
-  margin-left: 2rem;
 }
 
 h1 {
   color: white;
-  font-size: 10vh;
+  font-size: clamp(75px, 5.7vw, 7rem);
   margin-top: 0;
   margin-bottom: 1.5vh;
   text-align: center;
@@ -200,7 +192,7 @@ h1 {
 
 h2 {
   color: white;
-  font-size: clamp(2.4rem, 4vh, 3rem);
+  font-size: clamp(32px, 2.3vw, 50px);
   text-align: center;
   margin-bottom: 0.5rem;
 }
@@ -209,7 +201,7 @@ h2 {
   margin-left: 1vw;
   margin-right: 1vw;
   text-align: center;
-  font-size: clamp(1.4rem, 3vh, 2rem);
+  font-size: clamp(1rem, 3vh, 2rem);
   line-height: 1.5;
   color: #b8b8b8;
 }
@@ -217,7 +209,7 @@ h2 {
 .social {
   display: flex;
   position: relative;
-  top: 15vh;
+  top: 13vh;
   justify-content: space-around;
   align-items: center;
 }
@@ -282,12 +274,6 @@ h2 {
   text-shadow: 0 0 10px #ffffff;
 }
 
-@media (max-width: 1501px) {
-  h1 {
-    
-  }
-}
-
 /* Tablet breakpoint - transition to mobile layout */
 @media (max-width: 1024px) {
   main {
@@ -303,11 +289,15 @@ h2 {
   .container {
     margin-left: 0;
     text-align: center;
-    max-width: 600px;
+    max-width: 700px;
   }
   
   h1 {
     font-size: clamp(4.2rem, 9vw, 4.3rem);
+  }
+
+  h2 {
+    font-size: clamp(1.5rem, 3vh, 2.4rem);
   }
   
   .intro-text {
@@ -328,7 +318,6 @@ h2 {
 /* Mobile breakpoint */
 @media (max-width: 768px) {
   main {
-    padding: 15px;
     min-height: 100svh;
   }
   
@@ -346,26 +335,53 @@ h2 {
   }
   
   .social {
-    margin-top: 4rem;
+    float: bottom;
     justify-content: space-around;
   }
 }
 
 @media (max-width: 480px) {
   main {
-    padding: 10px;
-  }
-
-  h2 {
-
+    padding: 10px, 15px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
   }
   
   .hexhs {
-    margin-bottom: 1rem;
+    margin-bottom: -2vh;
+    flex-shrink: 0;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  h1 {
+    font-size: 10vw;
+    margin: 0;
+    flex-shrink: 0;
+  }
+
+  h2 {
+    font-size: 6.5vw;
+    margin: 0;
+    flex-shrink: 0;
+  }
+
+  .intro-text {
+    font-size: 4.5vw;
+    margin-bottom: 0;
+    margin-top: 1vh;
+    flex-shrink: 0;
   }
   
   .social {
     justify-content: center;
+    gap: 2.5rem;
+    flex-shrink: 0;
   }
   
   .resumeBtn {
@@ -379,7 +395,7 @@ h2 {
 }
 
 /* Very small screens */
-@media (max-width: 320px) {
+@media (max-width: 345px) {
   .social {
     gap: 0.8rem;
   }
