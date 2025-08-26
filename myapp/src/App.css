@@ -294,15 +294,17 @@ h2 {
   
   h1 {
     font-size: clamp(4.2rem, 9vw, 4.3rem);
+    margin-bottom: 0;
   }
 
   h2 {
-    font-size: clamp(1.5rem, 3vh, 2.4rem);
+    font-size: clamp(2rem, 2.3vw, 2.4rem);
+    margin-bottom: 0;
   }
   
   .intro-text {
     text-align: center;
-    margin: 1rem 0 2rem 0;
+    margin: .5rem 0 2rem 0;
     font-size: 1.55rem;
   }
   
@@ -330,8 +332,12 @@ h2 {
   }
 
   h1 {
-    font-size: clamp(2rem, 8vw, 4rem);
+    font-size: clamp(2rem, 10vw, 4rem);
     word-break: break-word;
+  }
+
+  h2 {
+    font-size: clamp(1.5rem, 4.2vw, 2.2rem);
   }
   
   .social {
@@ -366,9 +372,9 @@ h2 {
   }
 
   h2 {
-    font-size: 6.5vw;
     margin: 0;
     flex-shrink: 0;
+    font-size: clamp(1.2rem, 4.6vw, 1.7rem);
   }
 
   .intro-text {
@@ -403,6 +409,10 @@ h2 {
   .resumeBtn {
     font-size: 0.85rem;
     padding: 0.7rem 1.2rem;
+  }
+
+  h2 {
+    font-size: clamp(1rem, 5vw, 1.7rem);
   }
 }
 
@@ -588,7 +598,7 @@ h2 {
   .work {
     height: auto;
     min-height: 100vh;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
   }
   
   .work h2 {
