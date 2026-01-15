@@ -12,9 +12,9 @@ export function HomePage() {
                     I am a recent graduate from Carthage College with a Bachelor's in Computer Science and am looking forward to joining the workforce! Thanks for looking at my website!
                 </p>
                 <div className="social">
-                    <a href="https://www.linkedin.com/in/devinwolfrogers" target="_blank" rel="noopener"><i className='bx bxl-linkedin'></i></a>
+                    <a href="https://www.linkedin.com/in/devinwolfrogers" target="_blank" rel="noreferrer"><i className='bx bxl-linkedin'></i></a>
                     <button id="openResume" className="resumeBtn" onClick={openResume}>View Resume</button>
-                    <a href="https://github.com/devin-w-rogers" target="_blank" rel="noopener"><i className='bx bxl-github' ></i></a>
+                    <a href="https://github.com/devin-w-rogers" target="_blank" rel="noreferrer"><i className='bx bxl-github' ></i></a>
                 </div>
             </div>
         </main>

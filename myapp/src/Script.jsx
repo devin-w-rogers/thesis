@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 
 
 /* Change icon in nav bar -------------------------------------------------------  */
