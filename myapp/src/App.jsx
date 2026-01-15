@@ -1,10 +1,10 @@
 import './App.css';
 import './Script.jsx';
-import { NavBar } from "./navBar"
-import { HomePage } from "./homePage"
-import { AboutMe } from "./aboutMe"
-import { Work } from "./work"
-import { Contact } from "./contact"
+import { NavBar } from "./NavBar";
+import { HomePage } from "./HomePage";
+import { AboutMe } from "./AboutMe";
+import { Work } from "./Work";
+import { Contact } from "./Contact";
 
 
 export default function App() {
