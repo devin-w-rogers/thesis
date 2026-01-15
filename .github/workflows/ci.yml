@@ -43,6 +43,7 @@ jobs:
         - name: Build Docker Image
           uses: docker/build-push-action@v5
           with:
-            context: .
+            context: myapp
+            file: myapp/Dockerfile
             push: false
             tags: my-react-app:ci
